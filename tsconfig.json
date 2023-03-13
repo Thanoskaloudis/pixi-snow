@@ -4,7 +4,9 @@
     "target": "es6",
     "sourceMap": true,
     "outDir": "dist",
+    "strict": true,
+    "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*", "build", "dist/bundle.js"]
 }
